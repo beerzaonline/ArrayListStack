@@ -17,6 +17,9 @@ public class ArrayListStack {
 		}
 
 	}
+	public Object peek() {
+        return arr.get(arr.size()-1);
+    }
 
 	public Object getData() {
 		return arr;
